@@ -39,7 +39,7 @@ class PNotify extends \yii\base\Widget
     {
         $this->registerClientScript();
 
-        $this->createNotification([
+        if ($this->text) $this->createNotification([
             'title' => $this->title,
             'text' => $this->text,
             'type' => $this->type,
