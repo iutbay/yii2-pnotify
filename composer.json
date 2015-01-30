@@ -1,0 +1,19 @@
+{
+	"name": "iutbay/yii2-pnotify",
+	"description": "PNotify for Yii2",
+	"keywords": ["yii2", "widget", "pnotify"],
+	"homepage": "https://github.com/iutbay/yii2-pnotify",
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "Kevin LEVRON",
+			"email": "kevin.levron@gmail.com"
+		}
+	],
+	"require": {
+		"bower-asset/pnotify": "2.0.1"
+	},
+	"autoload": {
+		"psr-4": {"iutbay\\yii2pnotify\\": ""}
+	}
+}
