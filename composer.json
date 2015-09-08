@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"bower-asset/pnotify": "2.0.1"
+		"bower-asset/pnotify": "~2.1.0"
 	},
 	"autoload": {
 		"psr-4": {"iutbay\\yii2pnotify\\": ""}
