@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 class PNotifyAsset extends AssetBundle
 {
 
-    public $sourcePath = '@bower/pnotify';
+    public $sourcePath = '@bower/pnotify/src';
     public $js = [
         'pnotify.core.js',
         'pnotify.buttons.js',
