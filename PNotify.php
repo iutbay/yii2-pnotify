@@ -61,7 +61,7 @@ class PNotify extends \yii\base\Widget
 
         $text = ArrayHelper::getValue($n, 'text');
         if ($text) $options['text'] = $text;
-        else throw new \Imagine\Exception\InvalidArgumentException('Missing text param.');
+        else throw new \InvalidArgumentException('Missing text param.');
 
         $title = ArrayHelper::getValue($n, 'title');
         if ($title) $options['title'] = $title;
